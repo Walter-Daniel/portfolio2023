@@ -8,7 +8,7 @@ export const Hero = () => {
   return (
     <Grid container sx={{ height:'100vh' }}>
       <Grid item xs={12} md={6} lg={7} display='flex'  justifyContent='center' alignItems='flex-start' flexDirection='column'>
-        <Typography variant='h3' sx={{ textTransform:'uppercase' }}>Desarrollador Web FullStack <span className='hero-text'>MERN</span></Typography>
+        <Typography variant='h3' sx={{ textTransform:'uppercase', xs:{fontSize:'1.4rem'} }}>Desarrollador Web FullStack <span className='hero-text'>MERN</span></Typography>
         <Typography variant='h5'>Hola! Me llamo Walter Daniel Carrizo y soy un apasionado del Desarrollo Web.</Typography>
         <Typography variant='h5'><LocationOnIcon /> Tucumán, Argentina.</Typography>
         

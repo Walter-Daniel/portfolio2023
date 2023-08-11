@@ -30,10 +30,10 @@ export const Education = () => {
         >
           EDUCACIÓN
         </Typography>
-        <Timeline position="alternate" sx={{ margin:'2.4rem' }}>
+        <Timeline position="alternate" sx={{ margin:'2.4rem 0' }}>
           <TimelineItem>
             <TimelineOppositeContent
-              sx={{ m: "auto 0" }}
+              
               align="right"
               variant="body2"
               color="white"
