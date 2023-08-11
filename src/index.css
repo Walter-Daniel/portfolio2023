@@ -109,8 +109,12 @@
 *******************************************************/
 .card-portfolio {
   border: 1px solid #c2c2c2;
-  height: 30rem;
-
+  height: 35rem;
+}
+@media (min-width: 600px) {
+  .card-portfolio {
+    height: 27rem;
+  }
 }
 @media (min-width: 900px) {
   .card-portfolio {
@@ -128,11 +132,12 @@
 }
 .card-figure{
   width: 100%;
-  height: 100%;
+  height: 35%;
 }
 @media (min-width: 900px){
   .card-figure{
     width: 50%;
+    height: 100%;
   }
 }
 .card-figure img {

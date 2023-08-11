@@ -13,6 +13,9 @@ import LanguageIcon from '@mui/icons-material/Language';
 export const CardPortfolio = ({ project }) => {
   return (
     <Card sx={{ marginBottom:'1rem' }} className="card-portfolio">
+      <figure className="card-figure">
+        <img src={project.img} alt="" />
+      </figure>
       <Box className='card-container'>
         <CardContent>
           <Typography gutterBottom variant="h5" component="div" sx={{ fontWeight:'bold' }}>
@@ -33,9 +36,7 @@ export const CardPortfolio = ({ project }) => {
           </Stack>
         </CardActions>
       </Box>
-      <figure className="card-figure">
-        <img src={project.img} alt="" />
-      </figure>
+      
     </Card>
   );
 };
