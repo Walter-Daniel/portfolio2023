@@ -72,7 +72,7 @@
 /****************************************************** 
                      EDUCATION
 *******************************************************/
-.css-6od3lo-MuiChip-label {
+/* .css-6od3lo-MuiChip-label {
   overflow: hidden;
   text-overflow: ellipsis;
   padding-left: 12px;
@@ -80,6 +80,7 @@
   white-space: pre-wrap!important;
   width: 5rem;
 }
+
 @media (min-width: 600px){
   .css-6od3lo-MuiChip-label {
     overflow: hidden;
@@ -89,16 +90,26 @@
     white-space: nowrap;
     width: 8.2rem;
   }
+} */
+
+.css-6od3lo-MuiChip-label {
+  overflow: hidden;
+  padding-left: 12px;
+  padding-right: 12px;
+  white-space: normal!important;
+  width: 5rem;
 }
-.css-9smnm3-MuiChip-root {
+@media (min-width: 600px){
+  .css-6od3lo-MuiChip-label {
+    white-space: nowrap !important;
+    width: 8.2rem;
+  }
+}
+.chip-time {
   height: 40px !important;
 }
-.css-46drhl-MuiTimeline-roo{
-  display: flex !important;
-  flex-direction: column;
-  justify-content: center!important;
-  align-items: center !important;
-}
+
+
 /****************************************************** 
                      PORTFOLIO
 *******************************************************/

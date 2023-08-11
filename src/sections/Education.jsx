@@ -41,7 +41,11 @@ export const Education = () => {
               <Chip
                 label="06/2023 - Presente"
                 variant="outlined"
-                className="timeline-chip"
+                sx={{
+                  whiteSpace:{xs:'pre-wrap', sm:'nowrap'}
+                }}
+                className="chip-time"
+                
               />
             </TimelineOppositeContent>
             <TimelineSeparator>
