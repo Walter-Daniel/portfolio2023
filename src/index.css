@@ -92,23 +92,17 @@
   }
 } */
 
-.css-6od3lo-MuiChip-label {
-  overflow: hidden;
-  padding-left: 12px;
-  padding-right: 12px;
-  white-space: normal!important;
-  width: 5rem;
-}
-@media (min-width: 600px){
-  .css-6od3lo-MuiChip-label {
-    white-space: nowrap !important;
-    width: 8.2rem;
-  }
-}
+
 .chip-time {
+  width: 5rem;
   height: 40px !important;
 }
-
+@media (min-width: 600px){
+  .chip-time {
+    width: 8.2rem;
+    height: 40px !important;
+  }
+}
 
 /****************************************************** 
                      PORTFOLIO

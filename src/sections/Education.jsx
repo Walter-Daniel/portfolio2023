@@ -42,8 +42,12 @@ export const Education = () => {
                 label="06/2023 - Presente"
                 variant="outlined"
                 sx={{
-                  whiteSpace:{xs:'pre-wrap', sm:'nowrap'}
+                  height: 'auto',
+                  '& .MuiChip-label': {
+                    display: 'block',
+                    whiteSpace: 'normal',}
                 }}
+                size="small"
                 className="chip-time"
                 
               />
@@ -69,7 +73,14 @@ export const Education = () => {
               variant="body2"
               color="white"
             >
-              <Chip label="03/2022 - Presente" variant="outlined" />
+              <Chip label="03/2022 - Presente" variant="outlined"  sx={{
+                  height: 'auto',
+                  '& .MuiChip-label': {
+                    display: 'block',
+                    whiteSpace: 'normal',}
+                }}
+                className="chip-time"
+                />
             </TimelineOppositeContent>
             <TimelineSeparator>
               <TimelineConnector />
@@ -91,7 +102,14 @@ export const Education = () => {
               variant="body2"
               color="white"
             >
-              <Chip label="03/2022 - Presente" variant="outlined" />
+              <Chip label="03/2022 - Presente" variant="outlined"  sx={{
+                  height: 'auto',
+                  '& .MuiChip-label': {
+                    display: 'block',
+                    whiteSpace: 'normal',}
+                }} 
+                className="chip-time"
+                />
             </TimelineOppositeContent>
             <TimelineSeparator>
               <TimelineConnector />
@@ -123,7 +141,14 @@ export const Education = () => {
               variant="body2"
               color="white"
             >
-              <Chip label="10/2021 - 05/2022" variant="outlined" />
+              <Chip label="10/2021 - 05/2022" variant="outlined"  sx={{
+                  height: 'auto',
+                  '& .MuiChip-label': {
+                    display: 'block',
+                    whiteSpace: 'normal',}
+                }}
+                className="chip-time"
+                />
             </TimelineOppositeContent>
             <TimelineSeparator>
               <TimelineConnector />
