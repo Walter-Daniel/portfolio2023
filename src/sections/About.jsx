@@ -6,7 +6,7 @@ export const About = () => {
   const theme = useTheme()
 
   return (
-    <Grid container sx={{ height: '100vh' }} id='about' display='flex'alignItems='center'>
+    <Grid container sx={{ minHeight: '100vh' }} id='about' display='flex'alignItems='center'>
       <Grid item xs={12} md={6}>
         <figure className='about-img'>
           <img src={aboutIMG} alt="Hombre trabajando con una computadora" />
