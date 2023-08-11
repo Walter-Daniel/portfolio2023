@@ -33,10 +33,10 @@ export const Education = () => {
         <Timeline position="alternate" sx={{ margin:'2.4rem 0' }}>
           <TimelineItem>
             <TimelineOppositeContent
-              
               align="right"
               variant="body2"
               color="white"
+              maxWidth='100%'
             >
               <Chip
                 label="06/2023 - Presente"
