@@ -55,44 +55,17 @@
   object-fit: cover;
   margin: 1rem;
 }
-.about-img {
-  display: none;
-  visibility: hidden;
-}
-@media (min-width: 900px) {
-  .about-img{
-    visibility: visible;
-    display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100%;
-  width: 100%;
-  }
+.about-img{
+  visibility: visible;
+  display: flex;
+justify-content: center;
+align-items: center;
+height: 100%;
+width: 100%;
 }
 /****************************************************** 
                      EDUCATION
 *******************************************************/
-/* .css-6od3lo-MuiChip-label {
-  overflow: hidden;
-  text-overflow: ellipsis;
-  padding-left: 12px;
-  padding-right: 12px;
-  white-space: pre-wrap!important;
-  width: 5rem;
-}
-
-@media (min-width: 600px){
-  .css-6od3lo-MuiChip-label {
-    overflow: hidden;
-    text-overflow: ellipsis;
-    padding-left: 12px;
-    padding-right: 12px;
-    white-space: nowrap;
-    width: 8.2rem;
-  }
-} */
-
-
 .chip-time {
   width: 5rem;
   height: 40px !important;
