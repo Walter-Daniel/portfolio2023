@@ -14,8 +14,8 @@ export const Hero = () => {
         
         <Grid container width='100%'>
           <Grid item  paddingTop='0.5rem'>
-          <Button variant='contained' color='secondary' startIcon={<LinkedInIcon />} sx={{marginRight:'1rem'}} >Linkedin</Button>
-          <Button variant='contained' color='secondary' startIcon={<GitHubIcon />}>GitHub</Button>
+          <Button variant='contained' color='secondary' startIcon={<LinkedInIcon />} sx={{marginRight:'1rem'}}href='https://www.linkedin.com/in/walter-daniel-carrizo/' target='_blank'>Linkedin</Button>
+          <Button variant='contained' color='secondary' startIcon={<GitHubIcon />} href='https://github.com/Walter-Daniel' target='_blank'>GitHub</Button>
           </Grid>
         </Grid>
       </Grid>

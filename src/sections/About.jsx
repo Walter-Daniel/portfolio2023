@@ -20,7 +20,7 @@ export const About = () => {
       </Typography>
       <Typography>Cuento con experiencia en proyectos grupales e individuales, soy proactivo, me gusta investigar y poner en práctica nuevas formas de optimizar mi código y mejorar la experiencia del usuario.</Typography>
       <Typography> Mis mayores fortalezas son mi paciencia, mi empatía y mi empeño en aprender. Soy amante de la tecnología, fotografía y de la naturaleza.</Typography>
-      <Button variant='contained' color='primary' sx={{ marginTop:'0.5rem', textTransform:'capitalize', width:{xs:'100%', sm:'auto'} }}>ver currículo</Button>
+      <Button variant='contained' color='primary' sx={{ marginTop:'0.5rem', textTransform:'capitalize', width:{xs:'100%', sm:'auto'} }}href='https://drive.google.com/file/d/1dyAoGt9AD7ZkSX0Tm2O8IOAxGdv0Kyxi/view' target='_blank'>ver currículo</Button>
 
       </Grid>
 
