@@ -15,7 +15,7 @@ export const portfolioInfo = [
     {
         title: 'Bon Appétit',
         img: bonIMG,
-        description: 'Bon Appétit es una aplicación fullstack responsiva de pedidos de comida. Cada usuario deberá crearse una cuenta antes de realizar un pedido. El administrador puede crear, editar, eliminar productos y de dar dalta a los pedidos.',
+        description: 'Bon Appétit es una aplicación fullstack responsiva de pedidos de comida. Cada usuario deberá crearse una cuenta antes de realizar un pedido. El administrador puede crear, editar, eliminar productos y de dar alta a los pedidos.',
         tecnology: 'HTML, CSS, React, Ant Design, NodeJs, Express, MongoDB',
         path: 'https://bon-appetit-rc.netlify.app/',
         github: 'https://github.com/Walter-Daniel/restaurant-proyect',
