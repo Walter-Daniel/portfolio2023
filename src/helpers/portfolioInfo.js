@@ -6,7 +6,7 @@ export const portfolioInfo = [
     {
         title: 'Journal App',
         img: journalIMG,
-        description: 'Journal App es una aplicacion fullstack, en la cual podras crear, editar, eliminar notas y agregar imagenes. Las rutas se encuentran protegidas por lo que tendras que registrarte en la app y luego loguearte.',
+        description: 'Journal App es una aplicacion fullstack, en la cual podrás crear, editar, eliminar notas y agregar imagenes. Las rutas se encuentran protegidas por lo que tendrás que registrarte en la app y luego loguearte.',
         tecnology: 'HTML, CSS, React-Redux-Toolkit, MIU, NodeJs, Express, MongoDB, Cloudinary',
         path: 'https://purple-journal-app.netlify.app/',
         github: 'https://github.com/Walter-Daniel/JournalProyect',
@@ -24,7 +24,7 @@ export const portfolioInfo = [
     {
         title: 'Turismo Argentina',
         img: turismoIMG,
-        description: 'Turismo Argentina es un blog responsivo destinado a brindar información de lugares turísticos de la República Argentina. Cuenta con una páginas estáticas de: inicio, inicio de sesión, galería, contacto y acerca de nosotros.' ,
+        description: 'Turismo Argentina es un blog responsivo destinado a brindar información de lugares turísticos de la República Argentina. Cuenta con páginas estáticas: inicio, galería, contacto, inicio de sesión y acerca de nosotros.' ,
         tecnology: 'HTML, CSS y bootstrap5',
         path: 'https://turismo-arg.netlify.app/',
         github: 'https://github.com/Walter-Daniel/turismo-argentina',

@@ -65,7 +65,7 @@ export const Education = () => {
             </TimelineSeparator>
             <TimelineContent sx={{ py: "12px", px: 2 }}>
               <Typography sx={{ fontWeight: "bold" }} component="span">
-                Educactión IT & Telecom
+                Educación IT & Telecom
               </Typography>
               <Typography>Digitalers Node.js Developer</Typography>
             </TimelineContent>
