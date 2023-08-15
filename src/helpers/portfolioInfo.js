@@ -6,7 +6,7 @@ export const portfolioInfo = [
     {
         title: 'Journal App',
         img: journalIMG,
-        description: 'Journal App es una aplicacion fullstack, en la cual podras crear, agregar imagenes, editar y eliminar notas. Las rutas se encuentran protegidas por lo que tendras que registrarte en la app y luego loguearte.',
+        description: 'Journal App es una aplicacion fullstack, en la cual podras crear, editar, eliminar notas y agregar imagenes. Las rutas se encuentran protegidas por lo que tendras que registrarte en la app y luego loguearte.',
         tecnology: 'HTML, CSS, React-Redux-Toolkit, MIU, NodeJs, Express, MongoDB, Cloudinary',
         path: 'https://purple-journal-app.netlify.app/',
         github: 'https://github.com/Walter-Daniel/JournalProyect',
@@ -15,7 +15,7 @@ export const portfolioInfo = [
     {
         title: 'Bon Appétit',
         img: bonIMG,
-        description: 'Bon Appétit es una aplicación fullstack responsiva de pedidos de comida. Cada usuario deberá crearse una cuenta antes de realizar un pedido. El administrador puede crear, editar, eliminar productos y de dar alta a los pedidos.',
+        description: 'Bon Appétit es una aplicación fullstack responsiva de pedidos de comida. Cada usuario deberá crearse una cuenta antes de realizar un pedido. El administrador puede crear, editar, eliminar productos y dar de alta a los pedidos.',
         tecnology: 'HTML, CSS, React, Ant Design, NodeJs, Express, MongoDB',
         path: 'https://bon-appetit-rc.netlify.app/',
         github: 'https://github.com/Walter-Daniel/restaurant-proyect',
