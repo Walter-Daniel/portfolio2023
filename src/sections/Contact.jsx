@@ -8,7 +8,7 @@ export const Contact = () => {
   return (
     <Grid container marginTop='8rem' sx={{ minHeight:'30vh' }} direction='row' alignItems='center' id='contact'>
       <Grid item xs={12}>
-      <div data-aos="fade-up">
+      <div data-aos="zoom-in">
         <Typography variant='h3' color={theme.palette.primary.main} sx={{ textTransform:'uppercase', fontSize:'1.5rem', fontWeight:'bold', paddingBottom:'1rem'}}>
           contacto
         </Typography>
