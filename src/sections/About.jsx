@@ -8,11 +8,14 @@ export const About = () => {
   return (
     <Grid container sx={{ minHeight: '100vh', margin:{xs:'6rem 0', sm:'0'} }} id='about' display='flex'alignItems='center'>
       <Grid item xs={12} md={6}>
+      <div data-aos="fade-up-right">
         <figure className='about-img'>
           <img src={aboutIMG} alt="Hombre trabajando con una computadora" />
         </figure>
+      </div>
       </Grid>
       <Grid item md={6}>
+      <div data-aos="fade-up-left">
       <Typography variant='h3' color={theme.palette.primary.main} sx={{ textTransform:'uppercase', fontSize:'1.5rem', fontWeight:'bold'}}>Acerca de mí</Typography>
       <Typography variant='h5'>Un apasionado Desarrollador Web FullStack de Tucumán, Argentina.</Typography>
       <Typography>
@@ -21,7 +24,7 @@ export const About = () => {
       <Typography>Cuento con experiencia en proyectos grupales e individuales, soy proactivo, me gusta investigar y poner en práctica nuevas formas de optimizar mi código y mejorar la experiencia del usuario.</Typography>
       <Typography> Mis mayores fortalezas son mi paciencia, mi empatía y mi empeño en aprender. Soy amante de la tecnología, fotografía y de la naturaleza.</Typography>
       <Button variant='contained' color='primary' sx={{ marginTop:'0.5rem', textTransform:'capitalize', width:{xs:'100%', sm:'auto'} }}href='https://drive.google.com/file/d/1dyAoGt9AD7ZkSX0Tm2O8IOAxGdv0Kyxi/view' target='_blank'>ver currículo</Button>
-
+      </div>
       </Grid>
 
     </Grid>

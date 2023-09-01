@@ -12,6 +12,7 @@ import LanguageIcon from '@mui/icons-material/Language';
 
 export const CardPortfolio = ({ project }) => {
   return (
+      <div data-aos="fade-up">
     <Card sx={{ marginBottom:'1rem' }} className="card-portfolio">
       <figure className="card-figure">
         <img src={project.img} alt="" />
@@ -38,5 +39,6 @@ export const CardPortfolio = ({ project }) => {
       </Box>
       
     </Card>
+      </div>
   );
 };

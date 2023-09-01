@@ -8,6 +8,7 @@ export const Hero = () => {
   return (
     <Grid container sx={{ height:'100vh' }}>
       <Grid item xs={12} md={6} lg={7} display='flex'  justifyContent='center' alignItems='flex-start' flexDirection='column'>
+      <div data-aos="zoom-in">
         <Typography variant='h3' sx={{ textTransform:'uppercase', fontSize:{ xs:'1.8rem', md:'3rem' }, paddingTop:{xs:'4rem', md:'0'} }}>Desarrollador Web FullStack <span className='hero-text'>MERN</span></Typography>
         <Typography variant='h5'color='GrayText'>Hola! Me llamo Walter Daniel Carrizo y soy un apasionado del Desarrollo Web.</Typography>
         <Typography variant='h5'><LocationOnIcon /> Tucumán, Argentina.</Typography>
@@ -18,11 +19,14 @@ export const Hero = () => {
           <Button variant='contained' color='secondary' startIcon={<GitHubIcon />} href='https://github.com/Walter-Daniel' target='_blank'>GitHub</Button>
           </Grid>
         </Grid>
+        </div>
       </Grid>
       <Grid item xs={12} md={6} lg={5} display='flex'  justifyContent='center' alignItems='flex-start' flexDirection='column'>
+      <div data-aos="zoom-in">
         <figure className='hero-img'>
           <img src={hero} alt="Walter Daniel Carrizo" />
         </figure>
+      </div>
       </Grid>
     </Grid>
   )

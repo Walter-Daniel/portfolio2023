@@ -1,11 +1,12 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+
 import { Container } from '@mui/material'
 import { About, Contact, EducationSkills, Hero, Portfolio } from './sections';
 import {AppTheme} from './theme/AppTheme'
 import { Navbar } from './common/Navbar';
-
+import AOS from 'aos';
+import 'aos/dist/aos.css'; // You can also use <link> for styles
+// ..
+AOS.init();
 function App() {
   
 
