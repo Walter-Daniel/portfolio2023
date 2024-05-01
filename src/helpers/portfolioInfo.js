@@ -1,8 +1,17 @@
 import journalIMG from '../assets/journal.jpg';
 import turismoIMG from '../assets/turismo.jpg';
-import bonIMG from '../assets/bon.jpg';
+import astrowikiIMG from '../assets/astrowiki.png';
 
 export const portfolioInfo = [
+    {
+        title: 'ASTROWIKI',
+        img: astrowikiIMG,
+        description: 'AstroWiki es un sitio web educativo donde puedes consultar información sobre asteroides cercanos a la Tierra y exoplanetas. Este proyecto frontend utiliza la API de la NASA e incluye una página de inicio, contacto, formularios, y un componente hecho con three.js que compara el radio de la Tierra con el exoplaneta más grande.',
+        tecnology:'HTML, TailwindCSS, TypeScript, React, Three.js',
+        path: 'https://astrowiki-purpledev.vercel.app/',
+        github: 'https://github.com/Walter-Daniel/curso-next/tree/main/clase-1',
+        githubBack: null
+    },
     {
         title: 'Journal App',
         img: journalIMG,
@@ -12,15 +21,15 @@ export const portfolioInfo = [
         github: 'https://github.com/Walter-Daniel/JournalProyect',
         githubBack: 'https://github.com/Walter-Daniel/JournalProyect-Backend'
     },
-    {
-        title: 'Bon Appétit',
-        img: bonIMG,
-        description: 'Bon Appétit es una aplicación fullstack responsiva de pedidos de comida. Cada usuario deberá crearse una cuenta antes de realizar un pedido. El administrador puede crear, editar, eliminar productos y dar de alta a los pedidos.',
-        tecnology: 'HTML, CSS, React, Ant Design, NodeJs, Express, MongoDB',
-        path: 'https://restaurant-frontend-virid.vercel.app/',
-        github: 'https://github.com/Walter-Daniel/restaurant-proyect',
-        githubBack: 'https://github.com/Walter-Daniel/backend'
-    },
+    // {
+    //     title: 'Bon Appétit',
+    //     img: bonIMG,
+    //     description: 'Bon Appétit es una aplicación fullstack responsiva de pedidos de comida. Cada usuario deberá crearse una cuenta antes de realizar un pedido. El administrador puede crear, editar, eliminar productos y dar de alta a los pedidos.',
+    //     tecnology: 'HTML, CSS, React, Ant Design, NodeJs, Express, MongoDB',
+    //     path: 'https://restaurant-frontend-virid.vercel.app/',
+    //     github: 'https://github.com/Walter-Daniel/restaurant-proyect',
+    //     githubBack: 'https://github.com/Walter-Daniel/backend'
+    // },
     {
         title: 'Turismo Argentina',
         img: turismoIMG,

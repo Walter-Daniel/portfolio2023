@@ -11,7 +11,7 @@ import { Chip, Typography, useTheme, Grid } from "@mui/material";
 import LaptopMacIcon from "@mui/icons-material/LaptopMac";
 import MenuBookTwoToneIcon from "@mui/icons-material/MenuBookTwoTone";
 import LightbulbIcon from "@mui/icons-material/Lightbulb";
-
+import nextIMG from '/nextjs_icon.png'
 export const Education = () => {
   const theme = useTheme();
   return (
@@ -35,6 +35,43 @@ export const Education = () => {
           EDUCACIÓN
         </Typography>
         <Timeline position="alternate" sx={{ margin: "4.1rem 0" }}>
+          {/* HEDY SOFTWARE */}
+          <TimelineItem>
+            <TimelineOppositeContent
+              align="right"
+              variant="body2"
+              color="white"
+              // maxWidth="100%"
+            >
+              <Chip
+                label="03/2024 - Presente"
+                variant="outlined"
+                sx={{
+                  height: "auto",
+                  "& .MuiChip-label": {
+                    display: "block",
+                    whiteSpace: "normal",
+                  },
+                }}
+                size="small"
+                className="chip-time"
+              />
+            </TimelineOppositeContent>
+            <TimelineSeparator>
+              <TimelineConnector sx={{ bgcolor: "secondary.main" }} />
+              <TimelineDot color="secondary" variant="outlined">
+                <img src={nextIMG} style={{ height: '24px' }}/>
+              </TimelineDot>
+              <TimelineConnector />
+            </TimelineSeparator>
+            <TimelineContent sx={{ py: "24px", px: 2 }}>
+              <Typography sx={{ fontWeight: "bold" }} component="span">
+                Hedy Software
+              </Typography>
+              <Typography>Next.js 14 - Curso Intensivo</Typography>
+            </TimelineContent>
+          </TimelineItem>
+          {/* TELECOM */}
           <TimelineItem>
             <TimelineOppositeContent
               align="right"
@@ -57,7 +94,7 @@ export const Education = () => {
               />
             </TimelineOppositeContent>
             <TimelineSeparator>
-              <TimelineConnector sx={{ bgcolor: "secondary.main" }} />
+              <TimelineConnector />
               <TimelineDot color="warning" variant="outlined">
                 <LightbulbIcon />
               </TimelineDot>
@@ -70,48 +107,15 @@ export const Education = () => {
               <Typography>Digitalers Node.js Developer</Typography>
             </TimelineContent>
           </TimelineItem>
-          <TimelineItem>
-            <TimelineOppositeContent
-              sx={{ m: "auto 0" }}
-              align="right"
-              variant="body2"
-              color="white"
-            >
-              <Chip
-                label="03/2022 - Presente"
-                variant="outlined"
-                sx={{
-                  height: "auto",
-                  "& .MuiChip-label": {
-                    display: "block",
-                    whiteSpace: "normal",
-                  },
-                }}
-                className="chip-time"
-              />
-            </TimelineOppositeContent>
-            <TimelineSeparator>
-              <TimelineConnector />
-              <TimelineDot color="secondary" variant="outlined">
-                <MenuBookTwoToneIcon />
-              </TimelineDot>
-              <TimelineConnector />
-            </TimelineSeparator>
-            <TimelineContent sx={{ py: "12px", px: 2 }}>
-              <Typography sx={{ fontWeight: "bold" }} component="span">
-                Instituto Rush
-              </Typography>
-              <Typography>Intensivo 2 (nivel: A2)</Typography>
-            </TimelineContent>
-          </TimelineItem>
-          <TimelineItem>
+           {/* TECNICATURA */}
+           <TimelineItem>
             <TimelineOppositeContent
               sx={{ m: "auto 0" }}
               variant="body2"
               color="white"
             >
               <Chip
-                label="03/2022 - Presente"
+                label="03/2023 - Presente"
                 variant="outlined"
                 sx={{
                   height: "auto",
@@ -147,6 +151,42 @@ export const Education = () => {
               </Typography>
             </TimelineContent>
           </TimelineItem>
+          {/* INGLÉS */}
+          <TimelineItem>
+            <TimelineOppositeContent
+              sx={{ m: "auto 0" }}
+              align="right"
+              variant="body2"
+              color="white"
+            >
+              <Chip
+                label="03/2022 - Presente"
+                variant="outlined"
+                sx={{
+                  height: "auto",
+                  "& .MuiChip-label": {
+                    display: "block",
+                    whiteSpace: "normal",
+                  },
+                }}
+                className="chip-time"
+              />
+            </TimelineOppositeContent>
+            <TimelineSeparator>
+              <TimelineConnector />
+              <TimelineDot color="secondary" variant="outlined">
+                <MenuBookTwoToneIcon />
+              </TimelineDot>
+              <TimelineConnector />
+            </TimelineSeparator>
+            <TimelineContent sx={{ py: "12px", px: 2 }}>
+              <Typography sx={{ fontWeight: "bold" }} component="span">
+                Instituto Rush
+              </Typography>
+              <Typography>Intensivo 2 (nivel: A2)</Typography>
+            </TimelineContent>
+          </TimelineItem>
+          {/* ROLLINGCODE */}
           <TimelineItem>
             <TimelineOppositeContent
               sx={{ m: "auto 0" }}

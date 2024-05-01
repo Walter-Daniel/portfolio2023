@@ -2,7 +2,7 @@ export const skillsData = [
 {
     title: "frontend",
     skills: [
-    "HTML, CSS, JavaScript, React.js,  React Redux Toolkit,  Material UI,  Ant Design,  Bootstrap." 
+    "HTML, CSS, JavaScript, TypeScript, React, React Redux Toolkit, Next.js, Material UI,  Ant Design,  Bootstrap, TailwindCSS." 
     ],
 },
 {
