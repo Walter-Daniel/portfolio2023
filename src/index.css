@@ -21,30 +21,8 @@
 }
 .hero-text {
   position: relative;
-}
-.hero-text:after {
-  content: '';
-  position: absolute;
-  left: 2.5rem;
-  top: 1.6rem;
-  height: 15px;
-  width: 4.8rem;
-  transform: skew(-12deg) translateX(-50%);
-  background-color: var(--color-3);
-  z-index: -1;
-}
-@media (min-width: 900px) {
-  .hero-text:after {
-    content: '';
-    position: absolute;
-    left: 4.5rem;
-    top: 2.6rem;
-    height: 25px;
-    width: 9rem;
-    transform: skew(-12deg) translateX(-50%);
-    background-color: var(--color-3);
-    z-index: -1;
-  }
+  font-size: 6rem;
+  font-weight: bolder;
 }
 /****************************************************** 
                        ABOUT
@@ -92,7 +70,7 @@ width: 100%;
 @media (min-width: 900px) {
   .card-portfolio {
     display: flex;
-    height: 20rem;
+    height: 22rem;
   }
 }
 .card-container {
@@ -101,6 +79,9 @@ width: 100%;
 @media (min-width: 900px){
   .card-container{
     width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
   }
 }
 .card-figure{

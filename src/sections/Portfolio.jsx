@@ -11,7 +11,7 @@ export const Portfolio = () => {
       </div>
       <Grid item>
         {
-          portfolioInfo.map(project =>(<CardPortfolio project={project} />))
+          portfolioInfo.map(project =>(<CardPortfolio project={project} key={project.path}/>))
         }
         
       </Grid>
