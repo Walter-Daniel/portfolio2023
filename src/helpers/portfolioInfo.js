@@ -2,6 +2,7 @@ import journalIMG from '../assets/journal.jpg';
 import turismoIMG from '../assets/turismo.jpg';
 import astrowikiIMG from '../assets/astrowiki.png';
 import purpleShopIMG from '../assets/pshop1.png';
+import APIIMG from '../assets/back1.jpeg';
 
 export const portfolioInfo = [
     {
@@ -30,6 +31,15 @@ export const portfolioInfo = [
         path: 'https://journal-project.vercel.app/auth/login',
         github: 'https://github.com/Walter-Daniel/JournalProyect',
         githubBack: 'https://github.com/Walter-Daniel/JournalProyect-Backend'
+    },
+    {
+        title: 'REST API NodeJs',
+        img: APIIMG,
+        description: 'Esta API permite realizar operaciones CRUD completas para la gestión de productos, desarrollada con Node.jsExpress y TypeScript para un desarrollo eficiente y seguro. Cuenta con documentación en Swagger, pruebas robustas con Jest y SuperTest, y validación de datos con express-validator.' ,
+        tecnology: 'Noje.js, TypeScript, Swagger, Prisma, Jest, SuperTest, express-validator',
+        path: null,
+        github: null,
+        githubBack: 'https://github.com/Walter-Daniel/BACKEND-PERN-Project?tab=readme-ov-file'
     },
     {
         title: 'Turismo Argentina',

@@ -37,16 +37,18 @@ export const DropDownPorfolio = ({ githubFront, githubBack }) => {
           'aria-labelledby': 'basic-button',
         }}
       >
-        {
-            (githubBack === null) ? <Button variant='secondary' href={githubFront} target='_blank' sx={{width:'7.8rem'}}>Frontend</Button>
-
-                                  :
-                                  <Stack direction='column' width='7.8rem'>
-                                  <Button variant='secondary' href={githubFront} target='_blank' sx={{ width:'100%' }}>Frontend</Button>
-                                  <Button variant='secondary' href={githubBack} target='_blank'>Backend</Button>
-                                  </Stack>
-        }
-    
+       {(githubFront && githubBack) && (
+          <Stack direction='column' width='7.8rem'>
+            <Button variant='secondary' href={githubFront} target='_blank' sx={{ width: '100%' }}>Frontend</Button>
+            <Button variant='secondary' href={githubBack} target='_blank' sx={{ width: '100%' }}>Backend</Button>
+          </Stack>
+        )}
+        {(!githubBack && githubFront) && (
+          <Button variant='secondary' href={githubFront} target='_blank' sx={{ width: '7.8rem' }}>Frontend</Button>
+        )}
+        {(!githubFront && githubBack) && (
+          <Button variant='secondary' href={githubBack} target='_blank' sx={{ width: '7.8rem' }}>Backend</Button>
+        )}
       </Menu>
     </div>
   );

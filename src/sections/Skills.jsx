@@ -20,7 +20,7 @@ export const SkillSection = () => {
             textTransform: "uppercase",
             fontSize: "1.5rem",
             fontWeight: "bold",
-            marginBottom: "3rem",
+            marginBottom: "1.7rem",
             // paddingBottom: "1rem"
           }}
         >

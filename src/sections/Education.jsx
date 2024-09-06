@@ -34,7 +34,7 @@ export const Education = () => {
         >
           EDUCACIÓN
         </Typography>
-        <Timeline position="alternate" sx={{ margin: "4.1rem 0" }}>
+        <Timeline position="alternate" sx={{ margin: "2rem 0" }}>
           {/* HEDY SOFTWARE */}
           <TimelineItem>
             <TimelineOppositeContent

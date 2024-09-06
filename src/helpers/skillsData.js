@@ -8,7 +8,7 @@ export const skillsData = [
 {
     title: "backend",
     skills: [
-    "Node.js, Express, Mongoose, JASON Web Token, Bcrypt, MongoDB, MySQL, SQLite." 
+    "Node.js, Express, Mongoose, JASON Web Token, Bcrypt, MongoDB, PostgreSQL." 
     ],
 },
 {
