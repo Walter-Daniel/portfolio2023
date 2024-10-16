@@ -61,7 +61,7 @@ export const Navbar = (props) => {
       <AppBar component="nav" style={{backgroundColor:'#fff', boxShadow: 'none', borderBottom:'0.1px solid #898989'}}>
         <Toolbar>
           <IconButton
-            color="inherit"
+            color="black"
             aria-label="open drawer"
             edge="start"
             onClick={handleDrawerToggle}
