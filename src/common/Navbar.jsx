@@ -1,5 +1,4 @@
 import * as React from 'react';
-import PropTypes from 'prop-types';
 import { AppBar,CssBaseline, Box, Button, Divider, Drawer, IconButton, List, ListItem, ListItemButton, ListItemText, Toolbar, Typography } from '@mui/material';
 import MenuIcon from '@mui/icons-material/Menu';
 
@@ -58,8 +57,8 @@ export const Navbar = (props) => {
 
   return (
     <Box sx={{ display: 'flex' }}>
-      <CssBaseline />
-      <AppBar component="nav">
+      {/* <CssBaseline /> */}
+      <AppBar component="nav" style={{backgroundColor:'#fff', boxShadow: 'none', borderBottom:'0.1px solid #898989'}}>
         <Toolbar>
           <IconButton
             color="inherit"
@@ -108,11 +107,11 @@ export const Navbar = (props) => {
   );
 }
 
-Navbar.propTypes = {
-  /**
-   * Injected by the documentation to work in an iframe.
-   * You won't need it on your project.
-   */
-  window: PropTypes.func,
-};
+// Navbar.propTypes = {
+//   /**
+//    * Injected by the documentation to work in an iframe.
+//    * You won't need it on your project.
+//    */
+//   window: PropTypes.func,
+// };
 

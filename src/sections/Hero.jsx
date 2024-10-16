@@ -11,7 +11,7 @@ export const Hero = () => {
       <div data-aos="zoom-in">
         <Typography variant='h3' sx={{ textTransform:'uppercase', fontSize:{ xs:'1.8rem', md:'3rem' }, paddingTop:{xs:'4rem', md:'0'} }}>Desarrollador Web 
           <br />
-          <span className='hero-text'>Frontend</span>
+          <span className='hero-text'>Full Stack</span>
           </Typography>
         <Typography variant='h5'color='GrayText'>Hola! Me llamo Walter Daniel Carrizo y soy un apasionado del Desarrollo Web.</Typography>
         <Typography variant='h5'><LocationOnIcon /> Tucumán, Argentina.</Typography>

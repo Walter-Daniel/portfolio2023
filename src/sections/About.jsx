@@ -19,7 +19,7 @@ export const About = () => {
       <Typography variant='h3' color={theme.palette.primary.main} sx={{ textTransform:'uppercase', fontSize:'1.5rem', fontWeight:'bold'}}>Acerca de mí</Typography>
       <Typography variant='h5'>Un tucumano apasionado por el Desarrollo Web</Typography>
       <p>
-            Soy un desarrollador frontend apasionado por aprender y crear
+            Soy un desarrollador full stack apasionado por aprender y crear
             aplicaciones web escalables y de alto rendimiento. Tengo una sólida
             base en JavaScript y TypeScript, y he trabajado en proyectos
             utilizando tecnologías como React, Next.js y herramientas de gestión
